@@ -13,7 +13,7 @@
     "ngx:test--watch": "nx test ngx --watch",
     "ngx:publish": "npm run ngx:build && cd dist/packages/c-cdk/ngx && npm publish",
     "docs:serve": "nx serve docs",
-    "docs:deploy": "nx run docs:deploy",
+    "docs:deploy": "USE_SSH=true nx run docs:deploy",
     "commit": "cz"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "@angular/cli": "~15.0.0",
     "@angular/compiler-cli": "~15.0.0",
     "@angular/language-service": "~15.0.0",
-    "@docusaurus/module-type-aliases": "2.1.0",
+    "@docusaurus/module-type-aliases": "latest",
     "@nrwl/js": "16.3.2",
     "@nx-plus/docusaurus": "^15.0.0-rc.0",
     "@nx/angular": "16.3.2",
@@ -67,8 +67,8 @@
     "@angular/platform-browser": "~15.0.0",
     "@angular/platform-browser-dynamic": "~15.0.0",
     "@angular/router": "~15.0.0",
-    "@docusaurus/core": "2.1.0",
-    "@docusaurus/preset-classic": "2.1.0",
+    "@docusaurus/core": "latest",
+    "@docusaurus/preset-classic": "latest",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.6",

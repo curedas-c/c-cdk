@@ -19,7 +19,7 @@
     "deploy": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "cd packages/docs && USE_SSH=true docusaurus deploy"
+        "command": "cd packages/docs/ && docusaurus deploy"
       }
     }
   },
