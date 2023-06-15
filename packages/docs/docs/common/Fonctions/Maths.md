@@ -9,7 +9,7 @@ Des fonctions pour gérer ou génerer des nombres.
 Génère un nombre entier aléatoire compris dans l'interval passé en paramêtres.
 
 ```ts title="./dummy.service.ts"
-import { randomInteger } from 'c-cdk';
+import { randomInteger } from '@c-cdk/common';
 
 @Injectable()
 export class DummyService {

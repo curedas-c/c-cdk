@@ -1,5 +1,5 @@
 {
-  "name": "@c-cdk",
+  "name": "c-cdk",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -78,6 +78,9 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
+  },
+  "publishConfig": {
+    "@curedas-c:registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">=16.17.0",

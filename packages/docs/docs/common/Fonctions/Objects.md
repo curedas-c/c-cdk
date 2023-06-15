@@ -11,7 +11,7 @@ Supprime les clés dont les valeurs sont contenus dans le tableau passé en para
 Par défaut les clés à valeurs `null` et `undefined` sont supprimées.
 
 ```ts title="./dummy.service.ts"
-import { removeMatchingKeysFromObject } from 'c-cdk';
+import { removeMatchingKeysFromObject } from '@c-cdk/common';
 
 @Injectable()
 export class DummyService {

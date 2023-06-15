@@ -12,7 +12,7 @@ L'opérateur retourne la valeur passée en paramêtre après un temps définit (
 Cela peux s'avérer utile lors de l'utilisation de mocks oû l'on souhaite simuler un delai de chargement.
 
 ```ts title="./user.service.mock.ts"
-import { ofDelay } from 'c-cdk';
+import { ofDelay } from '@c-cdk/common';
 import { faker } from '@faker-js/faker';
 import { User } from '@shared/models/auth.models';
 
@@ -43,7 +43,7 @@ L'opérateur attandra le retour de la connexion, dans le cas oû `navigator.onLi
 Le paramêtre `delayObservable$` permet d'attendre l'émission de l'observable fournit, avant la resouscription.
 
 ```ts title="./banana.component.ts"
-import { retryWhenOnline } from 'c-cdk';
+import { retryWhenOnline } from '@c-cdk/common';
  
 @Component({
   selector: 'banana',

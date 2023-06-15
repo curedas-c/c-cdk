@@ -10,5 +10,5 @@ sidebar_position: 1
 
 Lancez la commande:
 ```bash
-yarn install ngx-c-cdk
+yarn add @c-cdk/ngx
 ```

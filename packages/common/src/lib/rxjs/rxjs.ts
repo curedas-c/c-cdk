@@ -18,7 +18,7 @@ import {
  * Emit a string after 5 seconds
  *
  * ```ts
- * import { ofDelay } from 'c-cdk';
+ * import { ofDelay } from '@c-cdk/common';
  *
  * const nameAfterDelay = ofDelay('Richard', 5000);
  * nameAfterDelay.subscribe(x => console.log(x));
@@ -44,7 +44,7 @@ export const ofDelay = <T>(data: T, millisecondsDelay = 2500) =>
  * it will wait to be online before relaunch subscription
  *
  * ```ts
- * import { retryWhenOnline } from 'c-cdk';
+ * import { retryWhenOnline } from '@c-cdk/common';
  *
  * const fetchData = dummyService.fetchBananas();
  * fetchData.pipe(retryWhenOnline({ count: 2, delay: 3000 }))
