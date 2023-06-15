@@ -59,10 +59,14 @@
         "space-before-blocks": "off",
         "@typescript-eslint/space-before-blocks": "error",
         "lines-between-class-members": "off",
-        "@typescript-eslint/lines-between-class-members": ["warn", "always", {
-          "exceptAfterOverload": true,
-          "exceptAfterSingleLine": true
-        }]
+        "@typescript-eslint/lines-between-class-members": [
+          "warn",
+          "always",
+          {
+            "exceptAfterOverload": true,
+            "exceptAfterSingleLine": true
+          }
+        ]
       },
       "parserOptions": {
         "project": ["./tsconfig.json"]
@@ -77,5 +81,5 @@
       "rules": {}
     }
   ],
-  "plugins": ["@nrwl/nx", "unused-imports"]
+  "plugins": ["@nx", "unused-imports"]
 }

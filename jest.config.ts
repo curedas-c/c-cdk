@@ -1,6 +1,6 @@
-import { getJestProjects } from '@nrwl/jest';
+import { getJestProjects } from '@nx/jest';
 
 export default {
   projects: getJestProjects(),
-  fakeTimers: { enableGlobally: true },
+  fakeTimers: { enableGlobally: true }
 };

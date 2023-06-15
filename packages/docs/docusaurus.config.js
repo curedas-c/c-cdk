@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/c-cdk/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  // favicon: 'img/favicon.png',
   organizationName: 'curedas-c',
   projectName: 'c-cdk',
   deploymentBranch: 'docs',
@@ -39,10 +39,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        logo: {
-          alt: 'C-CDK-LOGO',
-          src: 'img/logo.png'
-        },
         items: [
           {
             type: 'doc',

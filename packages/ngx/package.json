@@ -1,6 +1,6 @@
 {
-  "name": "ngx-c-cdk",
-  "version": "0.0.0",
+  "name": "@c-cdk/ngx",
+  "version": "0.0.1",
   "publishConfig": {
     "access": "public"
   },

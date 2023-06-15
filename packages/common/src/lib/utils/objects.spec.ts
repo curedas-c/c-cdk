@@ -29,7 +29,6 @@ describe('removeMatchingKeysFromObject', () => {
       },
     };
     const result = removeMatchingKeysFromObject(obj, [0, '']);
-    console.log(result)
     expect(result).not.toHaveProperty('location.ref');
     expect(result).not.toHaveProperty('name');
   });
