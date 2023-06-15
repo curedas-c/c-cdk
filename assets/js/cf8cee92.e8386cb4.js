@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[129],{3988:o=>{o.exports=JSON.parse('{"title":"COMMON","description":"Development made easy.","slug":"/category/common","permalink":"/docs/category/common","navigation":{"previous":{"title":"Introduction","permalink":"/docs/Introduction"},"next":{"title":"Introduction","permalink":"/docs/common/Introduction"}}}')}}]);
