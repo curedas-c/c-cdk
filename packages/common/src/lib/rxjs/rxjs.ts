@@ -59,9 +59,9 @@ export const ofDelay = <T>(data: T, millisecondsDelay = 2500) =>
  * @return {*}  {OperatorFunction<T, T>}
  */
 export function retryWhenOnline<T>(options?: {
-  count: number | undefined;
-  delay: number | undefined;
-  resetOnSuccess: boolean | undefined;
+  count?: number;
+  delay?: number;
+  resetOnSuccess?: boolean;
   delayObservable$?: Observable<boolean | undefined>;
 }): OperatorFunction<T, T> {
   const { count, delay:retryDelay, delayObservable$, resetOnSuccess } = options || {};
