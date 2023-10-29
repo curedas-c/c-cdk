@@ -15,9 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@c-cdk": ["packages/c-cdk/src/index.ts"],
-      "@c-cdk/c-cdk": ["packages/c-cdk/src/index.ts"],
-      "@c-cdk/mylib": ["packages/mylib/src/index.ts"]
+      "@c-cdk/common": ["packages/common/src/index.ts"],
+      "@c-cdk/ngx": ["packages/ngx/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
