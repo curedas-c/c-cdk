@@ -6,16 +6,16 @@ Des pipes pour formater ou créer des dates.
 
 ### Installation
 
-Importez le module `VeoneTimePipeModule`.
+Importez les pipes que vous souhaitez utiliser.
 
 ```ts
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { VeoneTimePipeModule } from '@c-cdk/common';
+import { TimeElapsedPipe, ToTitleCasePipe } from '@c-cdk/common';
 
-const MODULES = [ReactiveFormsModule, VeoneTimePipeModule];
+const MODULES = [ReactiveFormsModule, TimeElapsedPipe, ToTitleCasePipe];
 
 @NgModule({
   imports: [CommonModule, ...MODULES],

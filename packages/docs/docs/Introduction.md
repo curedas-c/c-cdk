@@ -4,6 +4,6 @@ sidebar_position: 1
 
 Cette documentation couvre  **plusieurs bibliothèques open source**.
 
-- **C-CDK** un CDK contenant des utilitaires pour RXJS et le développement JS en général.
+- **@c-cdk/common** un CDK contenant des utilitaires pour RXJS et le développement JS en général.
 
-- **NGX-C-CDK** un CDK pour faciliter les développements sur ANGULAR 2+.
+- **@c-cdk/ngx** un CDK pour faciliter les développements sur ANGULAR 2+.
