@@ -10,6 +10,7 @@ import dayjs from '../../external-deps/dayjs.lib';
  */
 @Pipe({
   name: 'timeElapsed',
+  standalone: true,
   pure: true
 })
 export class TimeElapsedPipe implements PipeTransform {
