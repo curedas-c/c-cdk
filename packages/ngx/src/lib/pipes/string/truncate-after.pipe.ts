@@ -9,7 +9,7 @@ import { truncateAfter } from '@c-cdk/common';
   standalone: true,
   pure: true
 })
-export class ToTitleCasePipe implements PipeTransform {
+export class TruncateAfterPipe implements PipeTransform {
   transform(value: string | null | undefined, limit: number): string {
     return value ? truncateAfter(value, limit) : '';
   }
