@@ -47,7 +47,9 @@
         ],
         "@typescript-eslint/no-explicit-any": [
           "error",
-          { "ignoreRestArgs": true }
+          {
+            "ignoreRestArgs": true
+          }
         ],
         "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
         "@typescript-eslint/naming-convention": ["error"],

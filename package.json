@@ -14,6 +14,8 @@
     "ngx:publish": "npm run ngx:build && cd dist/packages/c-cdk/ngx && npm publish",
     "docs:serve": "nx serve docs",
     "docs:deploy": "USE_SSH=true nx run docs:deploy",
+    "nx:migrate": "YARN_NODE_LINKER='node-modules' nx migrate latest",
+    "nx:migrate:exec": "YARN_NODE_LINKER='node-modules' yarn exec nx migrate --run-migrations",
     "commit": "cz"
   },
   "devDependencies": {

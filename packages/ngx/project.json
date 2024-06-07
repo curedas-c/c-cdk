@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/ngx/src",
-  "prefix": "veone-frontend-libs",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@nx/angular:package",
@@ -33,12 +33,8 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "packages/ngx/**/*.ts",
-          "packages/ngx/**/*.html"
-        ]
+        "lintFilePatterns": ["packages/ngx/**/*.ts", "packages/ngx/**/*.html"]
       }
     }
-  },
-  "tags": []
+  }
 }
