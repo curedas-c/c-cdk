@@ -1,0 +1,476 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.1",
+  "deps": {
+    "@angular/animations": "18.0.2",
+    "@angular/common": "18.0.2",
+    "@angular/compiler": "18.0.2",
+    "@angular/core": "18.0.2",
+    "@angular/forms": "18.0.2",
+    "@angular/platform-browser": "18.0.2",
+    "@angular/platform-browser-dynamic": "18.0.2",
+    "@angular/router": "18.0.2",
+    "@docusaurus/core": "latest",
+    "@docusaurus/preset-classic": "latest",
+    "@mdx-js/react": "^1.6.22",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.6",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4",
+    "@angular-devkit/build-angular": "18.0.3",
+    "@angular-eslint/eslint-plugin": "16.0.3",
+    "@angular-eslint/eslint-plugin-template": "16.0.3",
+    "@angular-eslint/template-parser": "16.0.3",
+    "@angular/cli": "18.0.3",
+    "@angular/compiler-cli": "18.0.2",
+    "@angular/language-service": "18.0.2",
+    "@docusaurus/module-type-aliases": "latest",
+    "@nrwl/js": "19.2.1",
+    "@nx-plus/docusaurus": "^15.0.0-rc.0",
+    "@nx/angular": "19.2.1",
+    "@nx/esbuild": "19.2.1",
+    "@nx/eslint-plugin": "19.2.1",
+    "@nx/jest": "19.2.1",
+    "@nx/linter": "19.2.1",
+    "@nx/workspace": "19.2.1",
+    "@types/jest": "29.4.4",
+    "@types/node": "^18.16.9",
+    "@typescript-eslint/eslint-plugin": "7.3.0",
+    "@typescript-eslint/parser": "7.3.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "esbuild": "^0.19.2",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.1",
+    "jest": "29.4.3",
+    "jest-environment-jsdom": "29.4.3",
+    "jest-preset-angular": "14.1.0",
+    "ng-packagr": "18.0.0",
+    "nx": "19.2.1",
+    "nx-cloud": "19.0.0",
+    "postcss": "^8.4.5",
+    "postcss-import": "~14.1.0",
+    "postcss-preset-env": "~7.5.0",
+    "postcss-url": "~10.1.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.4.5"
+  },
+  "pathMappings": {
+    "@c-cdk/common": [
+      "packages/common/src/index.ts"
+    ],
+    "@c-cdk/ngx": [
+      "packages/ngx/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18164501344678984982"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8708157374154651819"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "12335966608509578974"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8586085770811542511"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "2559882092590377215"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13391140343975966684"
+      },
+      {
+        "file": ".yarn/releases/yarn-3.6.4.cjs",
+        "hash": "17985692835008547685"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "4142109519443091446"
+      },
+      {
+        "file": "README.md",
+        "hash": "6438279505236399701"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "1422685043095385095"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "2886252350929414260"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "10593839840891849372"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1661744998129403713"
+      },
+      {
+        "file": "package.json",
+        "hash": "16085692404664380108"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "11810713488198132402"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7263334010835939492"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6257995463648020524"
+      }
+    ],
+    "projectFileMap": {
+      "docs": [
+        {
+          "file": "packages/docs/babel.config.js",
+          "hash": "18194281066005454650",
+          "deps": [
+            "npm:@docusaurus/core"
+          ]
+        },
+        {
+          "file": "packages/docs/docs/Introduction.md",
+          "hash": "2474576951125612129"
+        },
+        {
+          "file": "packages/docs/docs/common/Fonctions/Maths.md",
+          "hash": "5349578180072787730"
+        },
+        {
+          "file": "packages/docs/docs/common/Fonctions/Objects.md",
+          "hash": "11012988754029996792"
+        },
+        {
+          "file": "packages/docs/docs/common/Fonctions/_category_.json",
+          "hash": "1670740178600586897"
+        },
+        {
+          "file": "packages/docs/docs/common/Introduction.md",
+          "hash": "16359345268055015006"
+        },
+        {
+          "file": "packages/docs/docs/common/Utilitaires RxJS.md",
+          "hash": "12604600933739156433"
+        },
+        {
+          "file": "packages/docs/docs/common/_category_.json",
+          "hash": "16325672340794660131"
+        },
+        {
+          "file": "packages/docs/docs/ngx/Introduction.md",
+          "hash": "3875438877627932710"
+        },
+        {
+          "file": "packages/docs/docs/ngx/Pipes/Gestion de date.md",
+          "hash": "13876406004255258646"
+        },
+        {
+          "file": "packages/docs/docs/ngx/Pipes/_category_.json",
+          "hash": "2616276998438595684"
+        },
+        {
+          "file": "packages/docs/docs/ngx/_category_.json",
+          "hash": "280680132827635969"
+        },
+        {
+          "file": "packages/docs/docusaurus.config.js",
+          "hash": "718292425733285262",
+          "deps": [
+            "npm:prism-react-renderer"
+          ]
+        },
+        {
+          "file": "packages/docs/project.json",
+          "hash": "9987660335222641061"
+        },
+        {
+          "file": "packages/docs/sidebars.js",
+          "hash": "7344715276205384286"
+        },
+        {
+          "file": "packages/docs/src/css/custom.css",
+          "hash": "10704104136203242798"
+        },
+        {
+          "file": "packages/docs/src/pages/index.module.css",
+          "hash": "9932704178041625546"
+        },
+        {
+          "file": "packages/docs/src/pages/index.tsx",
+          "hash": "5471883694384262073",
+          "deps": [
+            "npm:react",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "packages/docs/static/.nojekyll",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/docs/static/img/docusaurus.png",
+          "hash": "11805897491343913808"
+        },
+        {
+          "file": "packages/docs/static/img/undraw_docusaurus_mountain.svg",
+          "hash": "2009895230306219769"
+        },
+        {
+          "file": "packages/docs/static/img/undraw_docusaurus_react.svg",
+          "hash": "2604332906778604170"
+        },
+        {
+          "file": "packages/docs/static/img/undraw_docusaurus_tree.svg",
+          "hash": "9216166069443140769"
+        },
+        {
+          "file": "packages/docs/tsconfig.json",
+          "hash": "14006078255822832443"
+        }
+      ],
+      "ngx": [
+        {
+          "file": "packages/ngx/.eslintrc.json",
+          "hash": "12916970080334291229"
+        },
+        {
+          "file": "packages/ngx/README.md",
+          "hash": "6245862053889759389"
+        },
+        {
+          "file": "packages/ngx/jest.config.ts",
+          "hash": "16764864589196348693"
+        },
+        {
+          "file": "packages/ngx/ng-package.json",
+          "hash": "8867757434547280791"
+        },
+        {
+          "file": "packages/ngx/package.json",
+          "hash": "9216282021529151380",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:dayjs",
+            "npm:rxjs",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/ngx/project.json",
+          "hash": "43702589472121285"
+        },
+        {
+          "file": "packages/ngx/src/index.ts",
+          "hash": "12771442332163293256"
+        },
+        {
+          "file": "packages/ngx/src/lib/external-deps/dayjs.lib.ts",
+          "hash": "7062054930769635279",
+          "deps": [
+            "npm:dayjs"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/number/percent-change.pipe.ts",
+          "hash": "7616677586142234554",
+          "deps": [
+            "npm:@angular/core",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/string/humanize-file-size.ts",
+          "hash": "16488819134964196583",
+          "deps": [
+            "npm:@angular/core",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/string/to-initials.pipe.ts",
+          "hash": "8890807504577717406",
+          "deps": [
+            "npm:@angular/core",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/string/to-title-case.pipe.ts",
+          "hash": "11801953659327017985",
+          "deps": [
+            "npm:@angular/core",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/string/truncate-after.pipe.ts",
+          "hash": "2203540730790206072",
+          "deps": [
+            "npm:@angular/core",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/lib/pipes/time/timeElapsed.pipe.ts",
+          "hash": "4408770268882658194",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "packages/ngx/src/test-setup.ts",
+          "hash": "9531801021999427605",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "packages/ngx/tsconfig.json",
+          "hash": "9321355843982465349"
+        },
+        {
+          "file": "packages/ngx/tsconfig.lib.json",
+          "hash": "3973917564041651085"
+        },
+        {
+          "file": "packages/ngx/tsconfig.lib.prod.json",
+          "hash": "14596712293513988079"
+        },
+        {
+          "file": "packages/ngx/tsconfig.spec.json",
+          "hash": "887220804565200494"
+        }
+      ],
+      "common": [
+        {
+          "file": "packages/common/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "packages/common/README.md",
+          "hash": "4570544532805910443"
+        },
+        {
+          "file": "packages/common/jest.config.ts",
+          "hash": "17826124582987513584"
+        },
+        {
+          "file": "packages/common/package.json",
+          "hash": "7979713675799031786",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/common/project.json",
+          "hash": "3741281322868397044"
+        },
+        {
+          "file": "packages/common/src/index.ts",
+          "hash": "5804655086391723800"
+        },
+        {
+          "file": "packages/common/src/lib/external-deps/dayjs.lib.ts",
+          "hash": "7062054930769635279",
+          "deps": [
+            "npm:dayjs"
+          ]
+        },
+        {
+          "file": "packages/common/src/lib/rxjs/index.ts",
+          "hash": "12679360633645222887"
+        },
+        {
+          "file": "packages/common/src/lib/rxjs/rxjs.spec.ts",
+          "hash": "1457846128174690290"
+        },
+        {
+          "file": "packages/common/src/lib/rxjs/rxjs.ts",
+          "hash": "93506849435119467",
+          "deps": [
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/common/src/lib/utils/files.ts",
+          "hash": "8751897380842541932"
+        },
+        {
+          "file": "packages/common/src/lib/utils/index.ts",
+          "hash": "7944239020828863251"
+        },
+        {
+          "file": "packages/common/src/lib/utils/math.spec.ts",
+          "hash": "11674046156107699734"
+        },
+        {
+          "file": "packages/common/src/lib/utils/math.ts",
+          "hash": "7987302408944222660"
+        },
+        {
+          "file": "packages/common/src/lib/utils/objects.spec.ts",
+          "hash": "8996389081595914817"
+        },
+        {
+          "file": "packages/common/src/lib/utils/objects.ts",
+          "hash": "9428058449881498040"
+        },
+        {
+          "file": "packages/common/src/lib/utils/strings.ts",
+          "hash": "6634211749230557965"
+        },
+        {
+          "file": "packages/common/tsconfig.json",
+          "hash": "16160763137408128995"
+        },
+        {
+          "file": "packages/common/tsconfig.lib.json",
+          "hash": "17512648156706774563"
+        },
+        {
+          "file": "packages/common/tsconfig.spec.json",
+          "hash": "11194536110028348959"
+        }
+      ]
+    }
+  }
+}
